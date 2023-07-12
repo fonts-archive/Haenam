@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Haenam';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('https://cdn.jsdelivr.net/gh/fonts-archive/Haenam/Haenam.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/Haenam/Haenam.woff') format('woff'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/Haenam/Haenam.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/fonts-archive/Haenam/Haenam.ttf') format('truetype');
+}
