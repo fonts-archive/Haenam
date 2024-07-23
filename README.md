@@ -1,36 +1,28 @@
-# Haenam
+# 해남체
 
-[Visit Source](http://www.haenam.go.kr/index.9is?contentUid=18e3368f5d745106015e558a03a5349d)
-
-&nbsp;
-
-### CSS
-
-```
-font-family: 'Haenam';
-```
+[배포처 바로가기](http://www.haenam.go.kr/index.9is?contentUid=18e3368f5d745106015e558a03a5349d)
 
 &nbsp;
 
-### link
+## 웹 폰트
 
-```
+사용하는 `font-family`의 이름은 `Haenam`입니다.
+
+### HTML
+
+```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fonts-archive/Haenam/Haenam.css" type="text/css"/>
 ```
 
-&nbsp;
+### CSS `@Import`
 
-### import
-
-```
+```css
 @import url('https://cdn.jsdelivr.net/gh/fonts-archive/Haenam/Haenam.css');
 ```
 
-&nbsp;
+### CSS `@font-face`
 
-### font-face
-
-```
+```css
 @font-face {
     font-family: 'Haenam';
     font-weight: normal;
@@ -45,7 +37,20 @@ font-family: 'Haenam';
 
 &nbsp;
 
-### 라이센스 본문
+## font-family
+
+어느 브라우저나 시스템 환경에서도 동일한 폰트가 적용되어야 한다면 아래와 같이 구성하는 걸 추천합니다. `-apple-system`과 `BlinkMacSystemFont`는 맥, `Segoe UI`는 윈도우, `Roboto`는 안드로이드의 기본 폰트입니다.
+
+
+```css
+font-family: "Haenam", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+```
+
+&nbsp;
+
+## 라이선스
+
+라이선스는 언제든지 변경될 수 있습니다. 변경사항을 확인하려면 배포처를 방문해 주세요.
 
 ```
 이용자가 가지는 권리 
